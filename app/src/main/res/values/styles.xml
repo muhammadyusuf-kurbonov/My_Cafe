@@ -1,0 +1,52 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:fontFamily">@font/kholdos</item>
+    </style>
+
+    <style name="AppTheme.Button.Rounded" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">500dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="AppTheme.Button.Rounded.Primary" parent="AppTheme.Button.Rounded">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.PrimaryButtonCaption
+        </item>
+    </style>
+
+    <style name="AppTheme.Button.Rounded.Secondary" parent="AppTheme.Button.Rounded">
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.SecondaryButtonCaption
+        </item>
+    </style>
+
+    <style name="AppTheme.Button.Elevated" parent="Widget.MaterialComponents.Button">
+        <item name="elevation">15dp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance">
+        <item name="android:fontFamily">@font/kholdos</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.PrimaryButtonCaption" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.SecondaryButtonCaption" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.FragmentTitle">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.ItemPrimaryText">
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

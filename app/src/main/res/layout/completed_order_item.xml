@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvOrderItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:drawablePadding="@dimen/card_padding"
+        android:padding="@dimen/card_padding"
+        android:paddingStart="@dimen/large_padding"
+        android:paddingEnd="@dimen/large_padding"
+        android:textAppearance="@style/AppTheme.TextAppearance.ItemPrimaryText"
+        app:drawableStartCompat="@drawable/ic_baseline_check_24"
+        app:drawableTint="@android:color/holo_green_dark"
+        tools:text="@string/app_name" />
+</LinearLayout>

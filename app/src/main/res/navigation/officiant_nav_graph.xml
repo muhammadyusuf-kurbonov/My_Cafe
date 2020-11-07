@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/officiant_nav_graph"
+    app:startDestination="@id/createOrderFragment">
+
+    <fragment
+        android:id="@+id/createOrderFragment"
+        android:name="uz.muhammayusuf.kurbonov.mycafe.ui.fragments.CreateOrderFragment"
+        android:label="CreateOrderFragment" />
+    <fragment
+        android:id="@+id/ordersListFragment"
+        android:name="uz.muhammayusuf.kurbonov.mycafe.ui.fragments.OrdersListFragment"
+        android:label="OrdersListFragment" />
+</navigation>

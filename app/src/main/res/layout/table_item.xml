@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme.Button.Elevated"
+    android:layout_width="@dimen/box_size"
+    android:layout_height="@dimen/box_size"
+    android:layout_margin="@dimen/default_margin"
+    app:elevation="15dp"
+    tools:text="@string/app_name">
+
+
+</com.google.android.material.button.MaterialButton>

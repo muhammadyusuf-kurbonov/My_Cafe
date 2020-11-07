@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/fullscreenFragment">
+
+    <fragment
+        android:id="@+id/fullscreenFragment"
+        android:name="uz.muhammayusuf.kurbonov.mycafe.ui.fragments.FullscreenFragment"
+        android:label="FullscreenFragment">
+        <action
+            android:id="@+id/action_fullscreenFragment_to_noConnectionFragment"
+            app:destination="@id/noConnectionFragment"
+            app:popUpTo="@id/fullscreenFragment"
+            app:popUpToInclusive="true">
+            <argument
+                android:name="source"
+                android:defaultValue="Main" />
+        </action>
+        <action
+            android:id="@+id/action_fullscreenFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noConnectionFragment"
+        android:name="uz.muhammayusuf.kurbonov.mycafe.ui.fragments.NoConnectionFragment"
+        android:label="NoConnectionFragment" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="uz.muhammayusuf.kurbonov.mycafe.ui.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_noConnectionFragment"
+            app:destination="@id/noConnectionFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_chefFragment"
+            app:destination="@id/chefFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_userManagementFragment2"
+            app:destination="@id/userManagementFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_createOrderFragment2"
+            app:destination="@id/createOrderFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/chefFragment"
+        android:name="uz.muhammayusuf.kurbonov.mycafe.ui.fragments.ChefFragment"
+        android:label="ChefFragment">
+        <action
+            android:id="@+id/action_chefFragment_to_emptyFragment"
+            app:destination="@id/emptyFragment" />
+        <action
+            android:id="@+id/action_chefFragment_to_errorFragment"
+            app:destination="@id/errorFragment" />
+        <action
+            android:id="@+id/action_chefFragment_to_noConnectionFragment"
+            app:destination="@id/noConnectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/emptyFragment"
+        android:name="uz.muhammayusuf.kurbonov.mycafe.ui.fragments.EmptyFragment"
+        android:label="EmptyFragment">
+        <action
+            android:id="@+id/action_emptyFragment_to_chefFragment"
+            app:destination="@id/chefFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/errorFragment"
+        android:name="uz.muhammayusuf.kurbonov.mycafe.ui.fragments.ErrorFragment"
+        android:label="ErrorFragment" />
+    <fragment
+        android:id="@+id/userManagementFragment"
+        android:name="uz.muhammayusuf.kurbonov.mycafe.ui.fragments.UserManagementFragment"
+        android:label="UserManagementFragment">
+        <action
+            android:id="@+id/action_userManagementFragment2_to_noConnectionFragment"
+            app:destination="@id/noConnectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createOrderFragment2"
+        android:name="uz.muhammayusuf.kurbonov.mycafe.ui.fragments.CreateOrderFragment"
+        android:label="CreateOrderFragment">
+        <action
+            android:id="@+id/action_createOrderFragment2_to_errorFragment"
+            app:destination="@id/errorFragment" />
+    </fragment>
+</navigation>

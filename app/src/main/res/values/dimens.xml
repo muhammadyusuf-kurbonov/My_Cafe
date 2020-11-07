@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_margin">2dp</dimen>
+    <dimen name="card_padding">3dp</dimen>
+    <dimen name="card_radius">@dimen/cardview_default_radius</dimen>
+    <dimen name="card_elevation">@dimen/cardview_default_elevation</dimen>
+    <dimen name="large_padding">12dp</dimen>
+    <dimen name="default_margin">8dp</dimen>
+
+    <dimen name="box_size">120dp</dimen>
+</resources>

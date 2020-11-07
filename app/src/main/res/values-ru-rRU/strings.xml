@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Моё кафе</string>
+    <string name="officiant_mode_caption">Режим официанта</string>
+    <string name="chef_mode_caption">Режим шеф-повара</string>
+    <string name="active_orders_caption">Текущие заказы</string>
+    <string name="submit_order">Оформить заказ</string>
+    <string name="empty_selected_label">Что вы закажете?</string>
+    <string name="complete">Готово</string>
+    <string name="manager_empty_caption">Все заказы \n завершены!</string>
+    <string name="manager_error_caption">Уппс! Ошибочка</string>
+    <string name="developer_sign">Разработчик: \n<b><i>Курбонов Мухаммадюсуф</i></b></string>
+    <string name="order_ready_title">Заказ готов</string>
+    <string name="order_ready_content">Заказ столика %1s готов</string>
+    <string name="order_added_caption">Заказ оформлен</string>
+    <string name="channel_description">Канал уведомлений о готовых заказах</string>
+    <string name="retry_caption">Попробовать ещё раз</string>
+    <string name="exit_confirm">Ещё раз, чтобы выйти</string>
+    <string name="logout">Выйти</string>
+    <string name="user_mgmt_caption">Управление пользователями</string>
+    <string name="admin_role_caption">Администратор</string>
+    <string name="officiant_caption">Официант</string>
+    <string name="chef_caption">Шеф-повар</string>
+    <string name="guest_caption">Гость</string>
+    <string name="welcome_caption">Добро пожаловать %1s</string>
+    <string name="verifiy_process_placeholder">Проверка …</string>
+    <string name="change_role_caption">Сменить права %1s</string>
+    <string name="warning_you_are_working_offline">Внимание: вы работаете оффлайн</string>
+    <string name="warning_message">Внимание! \nВы находитесь в состоянии вне сети. Вы можете отправить заказ, но он будет доставлен лишь при первой возможности подключения к Интернету. Чтобы отправить заказ немедленно, подключитесь к сети. Вы точно хотите отправить заказ сейчас?</string>
+    <string name="list_orders_caption">Список</string>
+    <string name="new_caption">Новый</string>
+    <string name="table_caption">Столик №%1s</string>
+    <string name="select_table_caption">Выберите столик</string>
+    <string name="amend_message">Найден существующий заказ на этот столик. Хотите дополнить этот заказ?</string>
+</resources>

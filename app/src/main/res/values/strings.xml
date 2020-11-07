@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">My Cafe</string>
+    <string name="officiant_mode_caption">Waiter mode (officiant)</string>
+    <string name="chef_mode_caption">Chef mode</string>
+    <string name="active_orders_caption">Active orders</string>
+    <string name="submit_order">Submit order</string>
+    <string name="chip_text_template" translatable="false">%1s :%2s</string>
+    <string name="empty_selected_label">What will you order?</string>
+    <string name="complete">Complete</string>
+    <string name="order_view_template" translatable="false">%1s (%2s)</string>
+    <string name="manager_empty_caption">All orders are \n completed</string>
+    <string name="manager_error_caption">Ou! Error occurred!</string>
+    <string name="developer_sign">Powered by \n <b><i>Muhammadyusuf Kurbonov</i></b></string>
+    <string name="order_ready_title">Order is ready!</string>
+    <string name="order_ready_content">The order of table %1s is ready</string>
+    <string name="order_added_caption">Order added successfully</string>
+    <string name="channel_description">Channel for notifications about completed orders</string>
+    <string name="retry_caption">Retry</string>
+    <string name="exit_confirm">Press again to close</string>
+    <string name="logout">Logout</string>
+    <string name="user_mgmt_caption">User Management Panel</string>
+    <string name="admin_role_caption">Administrator</string>
+    <string name="officiant_caption">Waiter</string>
+    <string name="chef_caption">Chef</string>
+    <string name="guest_caption">Guest</string>
+    <string name="welcome_caption">Welcome %1s</string>
+    <string name="verifiy_process_placeholder">Verifying …</string>
+    <string name="change_role_caption">Change role of %1s</string>
+    <string name="warning_you_are_working_offline">Warning: You are working offline</string>
+    <string name="warning_message">Warning! \n You are now offline. You can submit order and it will be delivered as soon as possible. when internet connection will be established. To send this order immediately, please connect to Internet. Do you want to submit order now?</string>
+    <string name="list_orders_caption">List</string>
+    <string name="new_caption">New</string>
+    <string name="table_caption">Table №%1s</string>
+    <string name="select_table_caption">Select the table</string>
+    <string name="amend_message">There is other order with this table. DO you want to amend it?</string>
+
+</resources>
